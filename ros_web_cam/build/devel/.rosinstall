@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/altair/indigo_ws/src/ros_web_cam/build/devel/setup.sh

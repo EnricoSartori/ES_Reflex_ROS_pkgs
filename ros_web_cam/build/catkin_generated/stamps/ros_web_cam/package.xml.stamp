@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_web_cam</name>
+  <version>0.0.0</version>
+  <description>My WebCam pkg</description>
+  <maintainer email="enrico.sartori@studenti.univr.it">Enrico Sartori - Univr</maintainer>
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>usb_cam</build_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>usb_cam</run_depend>
+  <run_depend>rospy</run_depend>
+
+</package>

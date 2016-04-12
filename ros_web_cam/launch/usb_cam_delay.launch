@@ -1,0 +1,15 @@
+<!-- nodes and parameters for reflex -->
+<launch>
+	<!-- USB CAM -->
+	<!-- This node publish the image captured by the default usb cam on this topic: /usb_cam/image_raw -->
+	<node name="usb_cam" pkg="usb_cam" type="usb_cam_node" />
+
+	<node name="usb_cam_tester" pkg="ros_web_cam" type="usb_cam_delay.py" args="1.0" respawn="true"/>
+
+	<node name="image_view_deley" pkg="image_view" type="image_view" args="image:=/image_raw_with_delay" respawn="false" />
+
+	<!-- This node allows to  visualize the current image recorded by the usb_cam -->
+	<!-- 
+	<node name="image_view" pkg="image_view" type="image_view" args="image:=/usb_cam/image_raw" respawn="false" />
+	-->
+</launch>

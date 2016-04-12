@@ -1,0 +1,10 @@
+firmware/tools/openocd
+firmware/tools/openocd-source
+firmware/tools/gccarm.installed
+bin/
+build/
+devel/
+reflex_driver/yaml/*calibrate.yaml
+*~
+*.pyc
+firmware/beta/bin

@@ -1,0 +1,5 @@
+<launch>
+	
+	<node name="reflex_sender" pkg="reflex" type="reflex_command_generator.py" output="screen" respawn="true"/>
+
+</launch>

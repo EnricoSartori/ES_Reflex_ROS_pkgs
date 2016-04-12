@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_my_project</name>
+  <version>0.0.0</version>
+  <description>My teleoperation project</description>
+  <maintainer email="enrico.sartori@studenti.univr.it">Enrico Sartori - Univr</maintainer>
+  <license>BSD</license>
+  <url type="website">www.righthandrobotics.com</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+</package>

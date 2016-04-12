@@ -1,0 +1,8 @@
+prefix=/home/altair/indigo_ws/src/ros_web_cam/build/devel
+
+Name: ros_web_cam
+Description: Description of ros_web_cam
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/altair/indigo_ws/src/ros_web_cam/build/devel/lib 
+Requires: 
